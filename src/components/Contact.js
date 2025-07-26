@@ -1,4 +1,5 @@
 import React from 'react'
+import { AiOutlineLinkedin } from 'react-icons/ai'
 
 // import ContactImg from '../assets'
 
@@ -12,9 +13,13 @@ const Contact = () => {
         <p className='pb-5'>
             If you want to discuss more detail, please contact me
         </p>
+        <a href='https://www.linkedin.com/in/prabu-narendran-s-6807341b6' target='_blank' rel='noopener noreferrer' className='hover:text-white'>
+                            <AiOutlineLinkedin size={40} />
+                        </a>
         <p className='py-2'><span className='font-bold'>Email :</span>
         <a href='mailto:prabunarendran@gmail.com'>prabunarendran@gmail.com</a></p>
         <p className='py-2'><span className='font-bold'>Mobile :</span>7339358264</p>
+        
             
         </div>
     </section>
