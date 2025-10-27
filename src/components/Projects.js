@@ -50,15 +50,10 @@ export default function Projects() {
                                 alt={project.description}
                                 onClick={() => handleImageClick(project.demo)}
                             />
-                              <div className='project-demo'>
+                             <div className='project-desc'>
                                 <p className='text-center px-5 py-5'>{project.description}</p>
                                 <div className='flex justify-center'>
                                     <a className='btn' target='_blank' rel='noopener noreferrer' href={project.demo}>View Demo</a>
-                                </div>
-                            </div>
-                            <div className='project-desc'>
-                                <p className='text-center px-5 py-5'>{project.description}</p>
-                                <div className='flex justify-center'>
                                     <a className='btn' target='_blank' rel='noopener noreferrer' href={project.link}>View Source Code</a>
                                 </div>
                             </div>
@@ -69,6 +64,7 @@ export default function Projects() {
         </section>
     );
 }
+
 
 
 
