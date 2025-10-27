@@ -14,7 +14,7 @@ export default function Projects() {
             },
              {
                  image: 'https://ibb.co/Pvzh7XYn',
-                 description: 'Food Ecommerce website like Swiggy, Built with Angular & .Net',
+                 description: 'Food Ecommerce website like Swiggy, Built with React, Typescript, Firebase, Tailwind Css',
                  link: 'https://github.com/Prabu333/food_delivery',
                  demo: 'https://tjsjdelivery.netlify.app'
              }
@@ -64,6 +64,7 @@ export default function Projects() {
         </section>
     );
 }
+
 
 
 
