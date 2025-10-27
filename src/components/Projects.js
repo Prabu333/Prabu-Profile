@@ -13,7 +13,7 @@ export default function Projects() {
                 demo: 'https://tjsjmart.netlify.app'
             },
              {
-                 image: 'https://ibb.co/Pvzh7XYn',
+                 image: 'https://i.ibb.co/Tx48LBdk/c5828aa3-ad65-4c0a-8bb0-12aeb0ec7790.png',
                  description: 'Food Ecommerce website like Swiggy, Built with React, Typescript, Firebase, Tailwind Css',
                  link: 'https://github.com/Prabu333/food_delivery',
                  demo: 'https://tjsjdelivery.netlify.app'
@@ -64,6 +64,7 @@ export default function Projects() {
         </section>
     );
 }
+
 
 
 
