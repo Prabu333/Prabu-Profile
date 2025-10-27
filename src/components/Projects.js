@@ -11,13 +11,14 @@ export default function Projects() {
                 description: 'A Ecommerce Website. Built with React & Firebase API',
                 link: 'https://github.com/Prabu333/e_commerce',
                 demo: 'https://tjsjmart.netlify.app'
-            }
-            // ,
-            // {
-            //     image: websiteImg2,
-            //     description: 'Food Ecommerce website like Swiggy, Built with Angular & .Net',
-            //     link: 'https://github.com/jvlcode/food'
-            // },
+            },
+             {
+                 image: 'https://ibb.co/Pvzh7XYn',
+                 description: 'Food Ecommerce website like Swiggy, Built with Angular & .Net',
+                 link: 'https://github.com/Prabu333/food_delivery',
+                 demo: 'https://tjsjdelivery.netlify.app'
+             }
+             // ,
             // {
             //     image: websiteImg3,
             //     description: 'Basic Blog Website. Built with Next JS and MongoDB',
@@ -49,10 +50,16 @@ export default function Projects() {
                                 alt={project.description}
                                 onClick={() => handleImageClick(project.demo)}
                             />
+                              <div className='project-demo'>
+                                <p className='text-center px-5 py-5'>{project.description}</p>
+                                <div className='flex justify-center'>
+                                    <a className='btn' target='_blank' rel='noopener noreferrer' href={project.demo}>View Demo</a>
+                                </div>
+                            </div>
                             <div className='project-desc'>
                                 <p className='text-center px-5 py-5'>{project.description}</p>
                                 <div className='flex justify-center'>
-                                    <a className='btn' target='_blank' rel='noopener noreferrer' href={project.link}>View Project</a>
+                                    <a className='btn' target='_blank' rel='noopener noreferrer' href={project.link}>View Source Code</a>
                                 </div>
                             </div>
                         </div>
@@ -62,3 +69,6 @@ export default function Projects() {
         </section>
     );
 }
+
+
+
