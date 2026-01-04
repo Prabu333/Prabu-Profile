@@ -13,7 +13,7 @@ const About = () => {
                 <h1 className='text-4xl border-b-4 border-black mb-5 w-[170px] font-bold'>About Me</h1>
                 
                 <p className='pb-5'>
-                    I'm a passionate <span className='font-semibold text-orange-500'>Front End Developer</span> with over <strong className='font-semibold'>4.8 years of experience</strong> in the software development field. I specialize in creating visually appealing and highly functional websites, with a focus on e-commerce platforms.
+                    I'm a passionate <span className='font-semibold text-orange-500'>Front End Developer</span> with over <strong className='font-semibold'>4.9 years of experience</strong> in the software development field. I specialize in creating visually appealing and highly functional websites, with a focus on e-commerce platforms.
                 </p>
 
                 <p className='pb-5'>
@@ -22,6 +22,9 @@ const About = () => {
                 <ul className='list-none space-y-2 ml-6'>
                     <li><span className='font-semibold text-orange-500'>React.js</span></li>
                     <li><span className='font-semibold text-orange-500'>Redux</span></li>
+                    <li><span className='font-semibold text-orange-500'>Noed Js</span></li>
+                    <li><span className='font-semibold text-orange-500'>Express Js</span></li>
+                    <li><span className='font-semibold text-orange-500'>Mongo DB</span></li>
                     <li><span className='font-semibold text-orange-500'>Tailwind Css</span></li>
                     <li><span className='font-semibold text-orange-500'>Typescript</span></li>
                     <li><span className='font-semibold text-orange-500'>HTML</span></li>
@@ -44,4 +47,5 @@ const About = () => {
 }
 
 export default About
+
 
