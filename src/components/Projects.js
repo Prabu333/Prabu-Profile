@@ -1,6 +1,6 @@
 import websiteImg1 from '../assets/ecommerce-websites.jpg';
-// import websiteImg2 from '../assets/food-ecommerce.jpg';
-// import websiteImg3 from '../assets/website-blog.jpg';
+import twitterImg from '../assets/twitter_clone_img.png';
+
 
 export default function Projects() {
 
@@ -18,12 +18,13 @@ export default function Projects() {
                  link: 'https://github.com/Prabu333/food_delivery',
                  demo: 'https://tjsjdelivery.netlify.app'
              }
-             // ,
-            // {
-            //     image: websiteImg3,
-            //     description: 'Basic Blog Website. Built with Next JS and MongoDB',
-            //     link: 'https://github.com/jvlcode/blog'
-            // }
+              ,
+             {
+                 image: twitterImg,
+                 description: 'Twitter Clone — MERN + JWT + React Query',
+                 link: 'https://github.com/Prabu333/twitter-clone',
+                 demo: 'https://github.com/Prabu333/twitter-clone'
+             }
         ]
     }
 
@@ -64,6 +65,7 @@ export default function Projects() {
         </section>
     );
 }
+
 
 
 
