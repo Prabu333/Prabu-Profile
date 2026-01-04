@@ -1,6 +1,6 @@
 import React from 'react';
 import ResumeImg from '../assets/resume.jpg';
-import ResumePDF from '../assets/Prabu_React_Resume.pdf'; // Import the PDF file
+import ResumePDF from '../assets/React_Resume.pdf'; // Import the PDF file
 
 const Resume = () => {
   return (
@@ -24,4 +24,5 @@ const Resume = () => {
 }
 
 export default Resume;
+
 
